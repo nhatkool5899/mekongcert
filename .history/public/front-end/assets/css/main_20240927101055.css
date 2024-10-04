@@ -1,0 +1,36 @@
+/*****************
+*****1. Header
+*****2. Banner
+*****3. Home
+*******************/
+
+/* 1. Header */
+
+.header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.header-top{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.header-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo{
+    position: relative;
+    max-width: 120px;
+}
+
+.logo-link{
+    display: block;
+}

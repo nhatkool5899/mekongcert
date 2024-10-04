@@ -1,0 +1,176 @@
+
+.container{
+    margin: auto;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+@media screen and (min-width: 576px){
+    .container{
+        max-width: 540px;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    .container{
+        max-width: 720px;
+    }
+}
+
+
+@media screen and (min-width: 992px){
+    .container{
+        max-width: 960px;
+    }
+
+
+}
+
+@media screen and (min-width: 1200px){
+    .container{
+        max-width: 1140px;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .container{
+        max-width: 1320px;
+    }
+}
+
+
+@media screen and (max-width: 1200px){
+    .navigation, .support-btn{
+        display: none;
+    }
+
+    .header-action, .menu-nav{
+        width: 40px;
+        justify-content: end;
+    }
+
+    .menu-nav{
+        display: block;
+    }
+
+    .banner-text{
+        max-width: 450px;
+    }
+
+    .banner-text-subtitle{
+        font-size: 12px;
+    }
+
+    .banner-text-title{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .banner-text-desc{
+        font-size: 12px;
+    }
+
+    .primary-button{
+        letter-spacing: 0;
+        text-transform: capitalize;
+    }
+
+}
+
+@media screen and (max-width: 992px){
+
+    .header-top{
+        height: 35px;
+        line-height: 35px;
+    }
+    .sv-home-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .sv-home-icon{
+        height: 80px;
+    }
+
+    .header-top-social{
+        display: none;
+    }
+
+    .header-top-text, .header-top-info{
+        font-size: 10px;
+    }
+
+    .header-top-info i{
+        font-size: 11px;
+    }
+
+    .header-top-info::after{
+        display: none;
+    }
+
+    .projects-new{
+        grid-template-columns: 1fr;
+    }
+
+    .projects-nav-list{
+        flex-wrap: wrap;
+    }
+
+    .projects-body{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .activities-body{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .contact-body{
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .header-top-text{
+        display: none;
+    }
+
+    .header-top-main{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .logo{
+        height: 60px;
+    }
+
+    .logo img{
+        width: 80px;
+    }
+
+    .projects-body{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .activities-body{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width: 576px){
+    .logo{
+        gap: 5px;
+    }
+    .logo img{
+        width: 70px;
+    }
+
+    .logo-text h4{
+        font-size: 13px;
+    }
+    .logo-text p{
+        font-size: 10px;
+    }
+    
+
+}
